@@ -7,6 +7,7 @@ The Car Rental System is a Java-based console application that demonstrates an e
 🌟 Key Features of the Car Rental System:
 
 1️⃣ Car Management:
+
 ➔ Maintains a list of available cars for rental, each with attributes such as:
 
 ➔ Car ID (unique identifier).
@@ -19,6 +20,7 @@ The Car Rental System is a Java-based console application that demonstrates an e
 
 
 2️⃣ Customer Management:
+
 ➔ Stores customer details, including:
 
 ➔ Customer ID (unique identifier).
@@ -27,6 +29,7 @@ The Car Rental System is a Java-based console application that demonstrates an e
 
 
 3️⃣ Rental Management:
+
 ➔ Handles the creation of rental transactions, including:
 
 ➔ Associating a car with a customer.
@@ -38,6 +41,7 @@ The Car Rental System is a Java-based console application that demonstrates an e
 
 
 4️⃣ Renting a Car:
+
 ➔ Allows users to:
 
 ➔ View the list of available cars.
@@ -60,6 +64,7 @@ The Car Rental System is a Java-based console application that demonstrates an e
 
 
 6️⃣ Menu-Driven User Interface:
+
 ➔ Displays a menu with options:
 
 ➔ Rent a Car.
@@ -73,10 +78,13 @@ The Car Rental System is a Java-based console application that demonstrates an e
 
 
 7️⃣ Interactive Feedback:
+
 ➔ Provides real-time feedback for actions such as:
 
 ➔ Successful rentals.
 
+
 ➔ Errors for invalid input (e.g., selecting unavailable cars or invalid IDs).
+
 
 ➔ Confirmation of car returns.
