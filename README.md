@@ -58,8 +58,11 @@ The Car Rental System is a Java-based console application that demonstrates an e
 5️⃣ Returning a Car:
 
 ➔ Facilitates the process of returning rented cars:
+
 ➔ Accepts the Car ID for the return.
+
 ➔ Marks the car as available.
+
 ➔ Removes the rental transaction from active records.
 
 
