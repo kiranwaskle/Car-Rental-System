@@ -19,6 +19,7 @@ class Car
     private boolean isAvailable;
 
     //creating constructor to initialize the all the data members of the Car class
+    //parameterised constructor 
     public Car(String cardId,String brand, String model, double basePricePerDay)
     {
         this.carId = cardId;
@@ -29,20 +30,22 @@ class Car
     }
 
   //using the getter concept to get all the data members values
+    //id suppose -->> 001
   public String getCarId()
   {
       return carId;
   }
-
+//brank like mahindra , safari
   public String getBrand()
   {
       return brand;
   }
 
+    //model like Thar
   public String getModel() {
         return model;
     }
-
+//calculating the total price
   public double calculatePrice(int rentDays)
   {
       return rentDays*basePricePerDay;
@@ -51,6 +54,7 @@ class Car
   {
       return isAvailable;
   }
+    //this method used in the future 
   public void rent()
   {
       isAvailable = false;
@@ -134,6 +138,7 @@ class CarRentalSystem {
     //using add method to add the cars,customers and rentals
     // Adds a new car to the system.
     public void addCar(Car car) {
+        //add method used to add the car in the list
         cars.add(car);
     }
 
@@ -145,7 +150,7 @@ class CarRentalSystem {
     //Handles the rental process.
     public void rentCar(Car car, Customer customer, int days) {
         if (car.isAvailable()) {
-            car.rent();
+            car.rent();//this merthod false the car in inventory means now this car is not avaible because it is already rented from the customer
             rentals.add(new Rental(car, customer, days));
         } else {
             System.out.println("Car is not available for rent.");
@@ -178,7 +183,8 @@ class CarRentalSystem {
             System.out.println("1. Rent a Car");
             System.out.println("2. Return a Car");
             System.out.println("3. Exit");
-            System.out.print("Enter your choice: ");
+        
+            System.out.print("Enter your choice: ");    ETFU
 
             int choice = scanner.nextInt();
             scanner.nextLine(); // Consume newline
