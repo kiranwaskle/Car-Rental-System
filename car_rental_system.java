@@ -290,11 +290,6 @@ public class Main{
         Car car1 = new Car("C001", "Toyota", "Camry", 60.0);
         Car car2 = new Car("C002", "Honda", "Accord", 70.0);
         Car car3 = new Car("C003", "Mahindra", "Thar", 150.0);
-        rentalSystem.addCar(car1);
-        rentalSystem.addCar(car2);
-        rentalSystem.addCar(car3);
-
-        // Adding more cars
         Car car4 = new Car("C004", "Ford", "Mustang", 120.0);
         Car car5 = new Car("C005", "Hyundai", "Creta", 80.0);
         Car car6 = new Car("C006", "BMW", "X5", 200.0);
@@ -302,7 +297,10 @@ public class Main{
         Car car8 = new Car("C008", "Audi", "Q7", 250.0);
         Car car9 = new Car("C009", "Maruti", "Swift", 50.0);
         Car car10 = new Car("C010", "Chevrolet", "Cruze", 90.0);
-
+        
+        rentalSystem.addCar(car1);
+        rentalSystem.addCar(car2);
+        rentalSystem.addCar(car3);
         rentalSystem.addCar(car4);
         rentalSystem.addCar(car5);
         rentalSystem.addCar(car6);
