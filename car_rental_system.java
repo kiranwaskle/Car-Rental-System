@@ -1,4 +1,4 @@
-/*------------------Project-->>Car Rental System using Java Oops concepts----------*/
+ /*------------------Project-->>Car Rental System using Java Oops concepts----------*/
 
 //All the necessary classes for this project
 import java.sql.ClientInfoStatus;
@@ -20,7 +20,7 @@ class Car
 
     //creating constructor to initialize the all the data members of the Car class
     //parameterised constructor 
-    public Car(String cardId,String brand, String model, double basePricePerDay)
+    public Car(String cardId, String brand, String model, double basePricePerDay)
     {
         this.carId = cardId;
         this.brand = brand;
@@ -54,7 +54,6 @@ class Car
   {
       return isAvailable;
   }
-    //this method used in the future 
   public void rent()
   {
       isAvailable = false;
